@@ -1,0 +1,37 @@
+.jumbo {
+  color:red;
+}
+
+.navbar {
+  padding 1rem;
+  font: Segoe UI
+  font-color: black
+}
+
+.mycustom-jumbotron {
+  border:10px solid #003366;
+  width: 800px;
+  margin: 0 auto
+}
+
+.bodytext{
+  font-color:red
+}
+.bottom{
+  color:gray;
+}
+
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("Surface-Family.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
